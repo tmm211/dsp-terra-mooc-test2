@@ -1,57 +1,58 @@
-<!--Delete this section below upon using the template-->
+# Intro to Terra
 
-## Online Tools for Training Resources - OTTR
-
-The purpose of this course template and guide is to make course publishing maintenance across multiple different platforms _less painful_.
-
-_This template and guide helps you_:   
-
-- Edit and write a course in [RMarkdown files](https://rmarkdown.rstudio.com/) and have it published to multiple different platforms:
-  - [Leanpub](https://leanpub.com/bookstore?type=course)
-  - [Bookdown](https://bookdown.org/)
-  - [Coursera](https://www.coursera.org/)
-- Have [Github action robots](https://github.com/jhudsl/OTTR_Template/wiki/How-to-set-up-and-customize-GitHub-actions-robots) do your repetitive tasks like spell check and re-rendering. 
-- Use [automagic conversion](https://github.com/jhudsl/leanbuild) to ease the lift of prepping the material for different platforms' formats.
-- Use [our Docker image](https://hub.docker.com/repository/docker/jhudsl/course_template) for consistency across authors as well as to help you [avoid dependency hell](https://en.wikipedia.org/wiki/Dependency_hell). 
-
-<img src="https://docs.google.com/presentation/d/18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU/export/png?id=18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU&pageid=gf4fcf6569c_2_29" width="500"/>
-
-## Courses that have been made using this template:
-- [Documentation and Usability](https://jhudatascience.org/Documentation_and_Usability/)
-- [Leadership for Cancer Informatics Research](https://jhudatascience.org/Informatics_Research_Leadership/)
-- [Reproducibility in Cancer Informatics](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
-- [Advanced Reproducibility in Cancer Informatics](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/)
-
-## To Get Started
-- Go to the [Wiki page](https://github.com/jhudsl/OTTR_Template/wiki/Getting-started)
-- Please take a look at the [code of conduct](./code_of_conduct.md).
-- If you encounter any problems or have ideas for improvements to this template repository or this getting started guide, please [file an issue here](https://github.com/jhudsl/OTTR_Template/issues/new/choose)! Your feedback is very much appreciated.
-
-<!--Delete everything above this line upon using the template-->
-
-# {Course Name}
-
+*THIS REPO IS IN PROGRESS* 
 [![Render Bookdown and Coursera](https://github.com/jhudsl/OTTR_Template/actions/workflows/render-bookdown.yml/badge.svg)](https://github.com/jhudsl/OTTR_Template/actions/workflows/render-bookdown.yml)
 
 This course was created from [this GitHub template](https://github.com/jhudsl/OTTR_Template).
 
-You can see the rendered course material here: {Link to rendered bookdown and/or to the Leanpub. Will look something like: https://jhudatascience.org/{Course_Name}}
+You can see the rendered course material here: https://leanpub.com/universities/courses/terra/intrototerra
 
 If you would like to contribute to this course material, take a look at the [getting started GitHub wiki pages](https://github.com/jhudsl/OTTR_Template/wiki).
 
 ## About this course
 
-This course introduces {info on what this course introduces}
+The health and life sciences data revolution has arrived. Accurate and inexpensive genome sequencing is a reality, high-resolution imaging is becoming routine, and clinical data is increasingly available in machine-readable formats. These breakthroughs bring us to the threshold of a new era in biomedicine, one where the data sciences hold the potential to propel our understanding and treatment of human disease.
+
+Enter [Terra](http://terra.bio), a scalable platform for biomedical research. Terra's mission is to enable the next generation of collaborative biomedical research by building an open platform that connects researchers to each other and to the datasets and tools they need to achieve scientific breakthroughs. But building infrastructure is only the first step. We are collaborating with funders, data generators, method developers and community leaders to support and empower researchers in key domains as they transition their work to this new ecosystem. This includes the Analysis, Visualization and Informatics Labspace (AnVIL) funded by the National Human Genome Research Institute, BioData Catalyst funded by the National Heart, Lung and Blood Institute, and FireCloud funded by the National Cancer Institute.
+
+Researchers are already leveraging Terra to accelerate their research. Cancer genomics, infectious disease, medical and population genetics, and single-cell transcriptomics are just some of the biomedical disciplines supported by Terra. 
+
+This course is meant to provide a guided learning experience that gives you a foundational understanding of Terra and the key concepts underpinning its principles and intended applications. You will be working with the “generic” Terra application, but if you were working in the context of a project powered by Terra (i.e. [AnVIL](https://anvil.terra.bio/), [BioData Catalyst](https://terra.biodatacatalyst.nhlbi.nih.gov/), [FireCloud](https://firecloud.terra.bio/)), your experience in the application will be the same even if the “branding” looks a little different.
 
 ## Learning Objectives
 
-This course will teach learners to:  
+By the end of this course, you will be able to:
 
-- {You can use https://www.bobpikegroup.com/trainer-blog/5-steps-to-writing-clear-and-measurable-learning-objectives to define some learning objectives here}
-- {More learning objectives}
+1) Describe Terra's goals and its guiding principles,
+2) Name the types of analysis that you can do in Terra,
+3) Define key cloud computing components that will enable you to work in Terra,
+4) Securely access Terra with your own account,
+5) Access Terra support to learn more and get help when you need it,
+6) Articulate your next steps to getting started with Terra.
 
-## Encountering problems?
+## Course materials
 
-If you are encountering any problems with this course, please file a GitHub issue or contact us at {Some email or web address with a contact form}.
+Most of the reading you will do in this course will be from articles in the [Terra Support Center](http://support.terra.bio). You can think of that knowledge base as the textbook to this course. 
+
+We use this approach because Terra is in active development, with features continually being improved and released. The knowledge base will be more rapidly updated than this course, and so the reading assignments remain as up-to-date as possible. 
+
+We also assign a small number of videos that are hosted on the [Terra YouTube channel](https://www.youtube.com/c/TerraBioApp/videos). We don't currently provide transcripts of the videos, but you can make use of the closed caption feature available in YouTube if desired.
+
+In some places, we suggest additional optional reading. While not required for the course, we want to make sure you are aware of these resources if you are ready to take a deeper dive on your own.
+
+## Quizzes
+
+There are two quizzes in this course to test your understanding of Terra before you move on.
+
+## Course discussion
+
+We welcome your feedback and encourage you to discuss the course with other learners in our [Community Forum](https://support.terra.bio/hc/en-us/community/topics). (You'll learn more about the forum in a later section).
+%% I'll probably want to link directly to a dedicated section of the forum. Just link to the forum itself for now.
+
+## Acknowledgements
+
+This course is authored by the [Data Sciences Platform](https://www.broadinstitute.org/data-sciences-platform) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/).
+
+Terra is developed by the Broad Institute of MIT and Harvard in collaboration with [Microsoft](https://www.microsoft.com/en-us/industry/health/pharmaceuticals) and [Verily](https://verily.com/our-story/about-us/).
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />All materials in this course are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> unless noted otherwise.
