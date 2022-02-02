@@ -1,9 +1,9 @@
-book_filename: "Course_Name"
-chapter_name: "Chapter "
+book_filename: "Intro to Terra"
+chapter_name: "Chapter 1 "
 repo: https://github.com/jhudsl/OTTR_Template/
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
-            "02-chapter_of_course.Rmd",
+            "02-terra_overview.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
@@ -12,4 +12,4 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter"
-output_dir: "docs"
+output_dir: "docs""
