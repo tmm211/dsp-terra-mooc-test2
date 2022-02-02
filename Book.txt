@@ -1,0 +1,3 @@
+01-intro.md
+quiz_chp01.md 
+02-terra_overview.md
