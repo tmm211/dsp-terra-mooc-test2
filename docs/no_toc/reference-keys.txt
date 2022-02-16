@@ -1,0 +1,8 @@
+introduction
+course-materials
+quizzes
+course-discussion
+acknowledgements
+terra-overview
+new-to-cloud
+terra-and-data-in-the-cloud
